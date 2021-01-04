@@ -44,7 +44,7 @@ export default {
     },
     //清空留言版
     del_all(){
-      //this.msg_list=[];
+      this.msg_list=[];
       localStorage.clear()
     },
   },
